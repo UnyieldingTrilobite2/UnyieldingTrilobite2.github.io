@@ -1,0 +1,12 @@
+<html><head></head><body>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
+<script>
+ $.get('http://unyieldingtrilobite.github.io/', function (data) {
+  var arr=data.split("——").slice(0,-1).join("——");
+  document.write("{\"hitokoto\":\"");
+  document.write(arr);
+  document.write("\"from:\"《秉笔录》\"}");
+});
+</script>
+{"hitokoto":"少罗嗦，你还不如虫子呢！","from":"迷糊餐厅"}
+</pre></body></html>
