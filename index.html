@@ -1,11 +1,11 @@
 <html><head></head><body>
-<pre style="word-wrap: break-word; white-space: pre-wrap;">
 <script>
  $.get('http://unyieldingtrilobite.github.io/', function (data) {
   var arr=data.split("——").slice(0,-1).join("——");
+  ducument.write("<pre style=\"word-wrap: break-word; white-space: pre-wrap;\">");
   document.write("{\"hitokoto\":\"");
   document.write(arr);
-  document.write("\"from:\"《秉笔录》\"}");
+  document.write("\"from:\"《秉笔录》\"}</pre>");
 });
 </script>
-</pre></body></html>
+</body></html>
